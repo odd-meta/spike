@@ -66,7 +66,7 @@ if __name__ == "__main__" :
 
 
     """
-        figure out algorithm for generating network structure
+        TODO figure out algorithm for generating network structure
     """
 
 

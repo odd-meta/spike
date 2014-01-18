@@ -20,7 +20,7 @@ class spikeNode(object):
         self.level = self.level_increment(self.level)
 
         if self.level > self.threshold:
-            
+            print "trigger for \n%s" % self
             self.level = self.baseline
             
             if isinstance(self.children,list):
